@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+
+header {
+    color: white;
+    background: #a8a9ef;
+    background-image: url('../../images/header.jpeg');
+    min-height: 90vh;
+    padding-top: 15vh;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+header h1 {
+    font-size: 5rem;
+    font-family: "Sedgwick Ave Display", cursive;
+    color: rgb(218, 150, 39);
+    margin: 0 0 1rem;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0 0 2rem;
+}
